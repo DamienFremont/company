@@ -1,6 +1,8 @@
 DADA COMPANY
 ============
 
+WIP
+
 ## Install
 
 Install Requirements:
@@ -29,7 +31,6 @@ Install Project:
 npm install -g pnpm
 npm install -g opencode-ai
 
-cd paperclip-demo
 git clone https://github.com/paperclipai/paperclip.git
 
 mkdir ouputs

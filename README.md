@@ -1,8 +1,6 @@
 DADA COMPANY
 ============
 
-WIP
-
 ## Install
 
 Install Requirements:
@@ -25,6 +23,23 @@ Get-ExecutionPolicy
 npm --version
 ````
 
+Install Project:
+
+````bash
+npm install -g pnpm
+npm install -g opencode-ai
+
+cd paperclip-demo
+git clone https://github.com/paperclipai/paperclip.git
+
+mkdir ouputs
+
+cd paperclip
+pnpm install
+
+````
+
 ## Resources
 
 - [Install Node.js on Windows](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows )
+- [Paperclip + Qwen on Windows — Full Free Multi-Agent Setup! ](https://www.youtube.com/watch?v=dNnh0hjC4cA)

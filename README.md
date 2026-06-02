@@ -54,7 +54,17 @@ mkdir ouputs
 pnpm install
 ````
 
+### 6. Run Paperclip
+```powershell
+pnpm dev
+```
+Open browser → http://127.0.0.1:3100
+
+---
+
 ## Resources
 
 - [Install Node.js on Windows](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows )
-- [Paperclip + Qwen on Windows — Full Free Multi-Agent Setup! ](https://www.youtube.com/watch?v=dNnh0hjC4cA)
+- NetworkCoder
+    - [Paperclip + Qwen on Windows — Full Free Multi-Agent Setup! ](https://www.youtube.com/watch?v=dNnh0hjC4cA)
+    - [PaperClip-Run-Your-Own-AI-Company](https://github.com/network-tocoder/PaperClip-Run-Your-Own-AI-Company)

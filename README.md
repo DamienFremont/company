@@ -3,9 +3,18 @@ DADA COMPANY
 
 WIP
 
-## Install
+---
 
-Install Requirements:
+## Prerequisites
+
+| Tool | Version | Purpose |
+|------|---------|---------|
+| Windows | 10 or higher | OS requirement |
+| Node.js | v18+ | Runtime |
+| Git | Latest | Clone repo |
+| pnpm | Latest | Package manager |
+| OpenCode | Latest | Local AI engine |
+| LM Studio | Latest | Run free local models |
 
 ````bash
 winver

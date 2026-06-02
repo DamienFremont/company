@@ -9,35 +9,49 @@ Install Requirements:
 
 ````bash
 winver
-# SKIP IF WIN 11 24H2 IS INSTALLED
+# SKIP IF win 11 24H2 IS INSTALLED
 
 git --version
-# SKIP IF GIT 2.54.0 IS INSTALLED
+# SKIP IF git 2.54.0 IS INSTALLED
 # https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-64-bit.exe
 git --version
 
 node --version
 npm --version
-# SKIP IF NODE OpenJS.NodeJS.24 LTS IS INSTALLED
+# SKIP IF node OpenJS.NodeJS.24 LTS IS INSTALLED
 # https://nodejs.org/dist/v24.16.0/node-v24.16.0-x64.msi
 Set-ExecutionPolicy RemoteSigned
 Get-ExecutionPolicy
 npm --version
 ````
 
-Install Project:
+## Installation
 
-````bash
+### 1. Install pnpm
+````powershell
+pnpm --version
+# SKIP IF pnpm 11.5.0 IS INSTALLED
 npm install -g pnpm
+````
+
+### 2. Install OpenCode
+````powershell
 npm install -g opencode-ai
+````
 
+### 3. Enable Developer Mode (Windows symlink fix)
+````powershell
+# Run as Administrator
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /d 1 /v AllowDevelopmentWithoutDevLicense /f
+````
+
+### 4. Clone and set up Paperclip
+````powershell
 git clone https://github.com/paperclipai/paperclip.git
-
-mkdir ouputs
-
 cd paperclip
+git checkout v2026.529.0
+mkdir ouputs
 pnpm install
-
 ````
 
 ## Resources

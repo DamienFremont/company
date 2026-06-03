@@ -23,15 +23,15 @@ winver
 git --version
 # SKIP IF git 2.54.0 IS INSTALLED
 # https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-64-bit.exe
-git --version
 
 node --version
-npm --version
 # SKIP IF node OpenJS.NodeJS.24 LTS IS INSTALLED
 # https://nodejs.org/dist/v24.16.0/node-v24.16.0-x64.msi
+
+npm --version
+# SKIP IF npm 11.13.0 IS INSTALLED
 Set-ExecutionPolicy RemoteSigned
 Get-ExecutionPolicy
-npm --version
 ````
 
 ## Installation
